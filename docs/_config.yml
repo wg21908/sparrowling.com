@@ -1,4 +1,5 @@
 title: Sparrowling Docs
 description: Documentation for Sparrowling, a minimal and security-minded Linux distribution.
-theme: jekyll-theme-minimal
+#theme: jekyll-theme-minimal
+theme: jekyll-theme-cayman
 show_downloads: true
