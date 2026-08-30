@@ -1,6 +1,6 @@
 title: Sparrowling Docs
 description: Documentation for Sparrowling, a minimal and security-minded Linux distribution.
-#theme: jekyll-theme-minimal
+theme: jekyll-theme-minimal
 #theme: jekyll-theme-cayman
 #theme: jekyll-theme-architect
 #theme: jekyll-theme-dinky       #ugly
@@ -12,5 +12,5 @@ description: Documentation for Sparrowling, a minimal and security-minded Linux 
 #theme: jekyll-theme-midnight
 #theme: jekyll-theme-minima
 #theme: jekyll-theme-modernist # not bad, but not the one
-theme: jekyll-theme-slate
+#theme: jekyll-theme-slate # looks decent, an option
 show_downloads: true
