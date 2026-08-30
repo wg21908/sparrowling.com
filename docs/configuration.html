@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Configuration - Sparrowling Docs</title>
+    <meta name="description" content="Starter configuration notes for Sparrowling systems.">
+    <link rel="stylesheet" href="./assets/styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="./index.html"><span class="brand-mark" aria-hidden="true">S</span><span>Sparrowling Docs</span></a>
+      <nav aria-label="Primary navigation">
+        <a href="./installation.html">Installation</a>
+        <a href="./security.html">Security</a>
+        <a href="./configuration.html" aria-current="page">Configuration</a>
+        <a href="./downloads.html">Downloads</a>
+      </nav>
+    </header>
+
+    <main class="layout">
+      <aside class="sidebar" aria-label="Docs sections">
+        <a href="./index.html">Overview</a>
+        <a href="./installation.html">Installation</a>
+        <a href="./security.html">Security</a>
+        <a href="./configuration.html" aria-current="page">Configuration</a>
+        <a href="./downloads.html">Downloads</a>
+      </aside>
+
+      <section class="content">
+        <article class="panel">
+          <p class="eyebrow">System setup</p>
+          <h1>Configure Sparrowling without fighting the base system.</h1>
+          <p>
+            Sparrowling uses systemd and keeps configuration direct. These starter notes outline
+            the kinds of tasks users should expect after installation.
+          </p>
+        </article>
+
+        <article class="panel">
+          <h2>Common first tasks</h2>
+          <ul>
+            <li>Create or review local user accounts.</li>
+            <li>Set hostname, timezone, locale, and keyboard layout.</li>
+            <li>Configure networking for the target environment.</li>
+            <li>Enable only the systemd services the machine needs.</li>
+          </ul>
+        </article>
+
+        <article class="panel">
+          <h2>Service management</h2>
+          <p>Use systemd to inspect, enable, disable, start, and stop services.</p>
+          <pre class="command"><code>systemctl status
+sudo systemctl enable --now example.service</code></pre>
+        </article>
+      </section>
+    </main>
+
+    <footer class="site-footer">Sparrowling configuration docs.</footer>
+  </body>
+</html>
