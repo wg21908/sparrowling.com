@@ -8,9 +8,9 @@ description: Documentation for Sparrowling, a minimal and security-minded Linux 
 #theme: jekyll-theme-time-machine  #ugly
 #theme: jekyll-theme-tactile #retry
 #theme: jekyll-theme-leap-day  #ugly
-theme: jekyll-theme-merlot
+#theme: jekyll-theme-merlot  #looks okay
 #theme: jekyll-theme-midnight
-#theme: jekyll-theme-minima
+theme: jekyll-theme-minima
 #theme: jekyll-theme-modernist
 #theme: jekyll-theme-slate
 show_downloads: true
