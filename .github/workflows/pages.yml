@@ -8,6 +8,8 @@ on:
       - "docs/**"
       - "_config.yml"
       - ".github/workflows/pages.yml"
+      - "CNAME"
+      - "docs/CNAME"
   workflow_dispatch:
 
 permissions:
